@@ -21,3 +21,5 @@ Manually Scanning Java Projects
 [INFO] Successfully generated /Users/stevenhung/gitMay2022/cp4waiops-grpc-dynatrace-client/open-liberty/connector/target/dynatrace-connector.irx.
 
 ```
+
+
