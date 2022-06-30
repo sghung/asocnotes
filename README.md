@@ -8,7 +8,7 @@ Manually Scanning Java Projects
 
 
 
-1. For example, let's look at: https://github.ibm.com/katamari/cp4waiops-grpc-dynatrace-client
+1. For example, let's look at: https://github.ibm.com/katamari/cp4waiops-grpc-dynatrace-client (make sure to choose the proper branch)
 1. Go to the `pom.xml` directory in `cp4waiops-grpc-dynatrace-client/open-liberty`
 1. Call setup SDK, `export GITHUB_TOKEN=<YOUR TOKEN>` then `./setup-sdk.sh v1.4.3`
 3. Call `mvn com.hcl.security:appscan-maven-plugin:prepare -Dmaven.test.skip=true` inside the `connector` directory
@@ -22,4 +22,7 @@ Manually Scanning Java Projects
 
 ```
 
-
+5. Login to ASOC: https://cloud.appscan.com/
+6. Choose `Katamari-Juno` as the application
+7. Upload the irx file
+8. AppScan will create the report
